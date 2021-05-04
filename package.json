@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-jwt-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js --trace-warnings",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CauaneAndrade/nodejs-jwt-auth.git"
+  },
+  "author": "Cauane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CauaneAndrade/nodejs-jwt-auth/issues"
+  },
+  "homepage": "https://github.com/CauaneAndrade/nodejs-jwt-auth#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
